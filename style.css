@@ -1,0 +1,241 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  height: 100vh;
+}
+body .container {
+  max-width: 1366px;
+  background-color: #0C1218;
+  margin: 0 auto;
+}
+body .container .order {
+  width: 100%;
+  height: 37px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+  padding: 10px 50px;
+}
+body .container .order .order__text {
+  flex: 1;
+}
+body .container .order p {
+  font-size: 16px;
+  line-height: 19px;
+  font-weight: 700;
+  color: #000000;
+}
+body .container nav {
+  width: 100%;
+  height: 97px;
+  background: rgba(51, 51, 51, 0.5);
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body .container nav ul {
+  display: flex;
+  list-style-type: none;
+  gap: 25px;
+  margin-left: 315px;
+}
+body .container nav ul li a {
+  text-decoration: none;
+  color: #FFFFFF;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+}
+body .container nav .search-icon {
+  margin-left: 50px;
+}
+body .container nav .language-icon {
+  margin-left: 22px;
+}
+body .container nav .arow-icon {
+  margin-left: 6px;
+}
+body .container nav .services-icon {
+  margin-left: 69px;
+}
+body .container .hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 87px;
+}
+body .container .hero img {
+  height: 460px;
+}
+body .container .hero .hero-content h1 {
+  width: 492px;
+  text-align: center;
+  font-weight: 500;
+  line-height: 62px;
+  font-size: 56px;
+  color: #ffffff;
+}
+body .container .hero .hero-content .line {
+  width: 123px;
+  height: 2px;
+  background-color: #fff;
+  margin-left: 185px;
+  margin-top: 8px;
+}
+body .container .hero .hero-content .date {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #fff;
+  text-align: center;
+  margin-top: 10px;
+}
+body .container .hero .hero-content .hero-text {
+  width: 423px;
+  text-align: center;
+  margin-left: 29px;
+  margin-top: 23px;
+  color: #ffffff;
+  line-height: 19px;
+}
+body .container .links {
+  width: 1266px;
+  height: 70px;
+  border: 1px solid #A8A8A8;
+  border-left: none;
+  border-right: none;
+  margin-left: 50px;
+  display: flex;
+  align-items: center;
+}
+body .container .links p {
+  font-weight: 700;
+  line-height: 19px;
+  color: #fff;
+}
+body .container .links .fishare {
+  margin-left: 13px;
+}
+body .container .links img {
+  margin-left: 26px;
+}
+body .container .links .turi {
+  margin-left: 75px;
+  font-weight: 400;
+}
+body .container .salom {
+  height: 353px;
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+}
+body .container .salom p {
+  width: 621px;
+  font-size: 18px;
+  letter-spacing: 1%;
+  line-height: 26px;
+  font-weight: 400;
+  color: #ffffff;
+}
+body .container .xayr {
+  display: flex;
+  gap: 46px;
+}
+body .container .xayr h2 {
+  text-align: right;
+  font-weight: 700;
+  font-size: 42px;
+  letter-spacing: 1%;
+  line-height: 42px;
+  color: #fff;
+  width: 516px;
+}
+body .container .xayr p {
+  width: 645px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  letter-spacing: 1%;
+  color: #fff;
+}
+body .container .chotki {
+  height: 472px;
+}
+body .container .qale {
+  height: 858px;
+}
+body .container .ular {
+  height: 513px;
+  margin-top: 76px;
+}
+body .container .img-meduza img {
+  margin-left: 59px;
+}
+body .container .glent {
+  height: 249px;
+}
+body .container .kak {
+  width: 730px;
+  padding-left: 325px;
+  height: 70px;
+}
+body .container .kak .links {
+  border-bottom: none;
+}
+body .container .kak .links p {
+  width: 80px;
+}
+body .container footer {
+  width: 100%;
+  background-color: #1E2833;
+  padding-top: 60px;
+  padding-left: 50px;
+}
+body .container footer .footer__sections {
+  display: flex;
+}
+body .container footer .footer__sections .rare {
+  width: 232px;
+}
+body .container footer .footer__sections .rare img {
+  margin-bottom: 20px;
+}
+body .container footer .footer__sections .rare p {
+  font-size: 15px;
+  line-height: 19px;
+  letter-spacing: -0.2px;
+  color: #fff;
+}
+body .container footer .footer__sections .rare2 {
+  margin-left: 170px;
+  width: 133px;
+}
+body .container footer .footer__sections .rare2 p {
+  font-weight: 700;
+  font-size: 19px;
+  letter-spacing: -0.23px;
+  line-height: 24px;
+  color: #fff;
+}
+body .container footer .footer__sections .rare2 ul {
+  list-style-type: none;
+  margin-top: 7px;
+}
+body .container footer .footer__sections .rare2 ul li {
+  font-size: 15px;
+  line-height: 19px;
+  letter-spacing: -0.2px;
+  color: #fff;
+  margin-top: 10px;
+}
+body .container footer .footer__sections .rare3 {
+  width: 220px;
+}/*# sourceMappingURL=style.css.map */

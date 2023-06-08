@@ -1,0 +1,245 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    height: 100vh;
+    .container{
+        max-width: 1366px;
+        background-color: #0C1218;
+        margin: 0 auto;
+        .order{
+            width: 100%;
+            height: 37px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #ffffff;
+            padding: 10px 50px;
+            .order__text{
+                flex: 1;
+            }
+            p{
+                font-size: 16px;
+                line-height: 19px;
+                font-weight: 700;
+                color: #000000;
+            }
+        }
+        nav{
+            width: 100%;
+            height: 97px;
+            background: rgba(51, 51, 51, 0.5);
+            backdrop-filter: blur(10px);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            ul{
+                display: flex;
+                list-style-type: none;
+                gap: 25px;
+                margin-left: 315px;
+                li{
+                    a{
+                        text-decoration: none;
+                        color: #FFFFFF;
+                        font-size: 16px;
+                        font-weight: 400;
+                        line-height: 19px;
+                    }
+                }
+            }
+            .search-icon{
+                margin-left: 50px;
+            }
+            .language-icon{
+                margin-left: 22px;
+            }
+            .arow-icon{
+                margin-left: 6px;
+            }
+            .services-icon{
+                margin-left: 69px;
+            }
+        }
+        .hero{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 87px;
+            img{
+                height: 460px;
+            }
+            .hero-content{
+                h1{
+                    width: 492px;
+                    text-align: center;
+                    font-weight: 500;
+                    line-height: 62px;
+                    font-size: 56px;
+                    color: #ffffff;
+                }
+                .line{
+                    width: 123px;
+                    height: 2px;
+                    background-color: #fff;
+                    margin-left: 185px;
+                    margin-top: 8px;
+                }
+                .date{
+                    font-weight: 700;
+                    font-size: 20px;
+                    line-height: 24px;
+                    color: #fff;
+                    text-align: center;
+                    margin-top: 10px;
+                }
+                .hero-text{
+                    width: 423px;
+                    text-align: center;
+                    margin-left: 29px;
+                    margin-top: 23px;
+                    color: #ffffff;
+                    line-height: 19px;
+                }
+            }
+        }
+        .links{
+            width: 1266px;
+            height: 70px;
+            border: 1px solid #A8A8A8;
+            border-left: none;
+            border-right: none;
+            margin-left: 50px;
+            display: flex;
+            align-items: center;
+            p{
+                font-weight: 700;
+                line-height: 19px;
+                color: #fff;
+            }
+            .fishare{
+                margin-left: 13px;
+            }
+            img{
+                margin-left: 26px;
+            }
+            .turi{
+                margin-left: 75px;
+                font-weight: 400;
+            }
+        }
+        .salom{
+            height: 353px;
+            display: flex;
+            justify-content: center;
+            margin-top: 25px;
+            p{
+               width: 621px;
+               font-size: 18px;
+               letter-spacing: 1%;
+               line-height: 26px;
+               font-weight: 400;
+               color: #ffffff; 
+            }
+        }
+        .xayr{
+            display: flex;
+            gap: 46px;
+            h2{
+                text-align: right;
+                font-weight: 700;
+                font-size: 42px;
+                letter-spacing: 1%;
+                line-height: 42px;
+                color: #fff;
+                width: 516px;
+            }
+            p{
+                width: 645px;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 26px;
+                letter-spacing: 1%;
+                color: #fff;
+            }
+        }
+        .chotki{
+            height: 472px;
+        }
+        .qale{
+            height: 858px;
+        }
+        .ular{
+            height: 513px;
+            margin-top: 76px;
+        }
+        .img-meduza{
+            img{
+                margin-left: 59px;
+            }
+        }
+        .glent{
+            height: 249px;
+        }
+        .kak{
+            width: 730px;
+            padding-left:325px;
+            height: 70px;
+            .links{
+                border-bottom: none;
+                p{
+                    width: 80px;
+                }
+            }
+        }
+        footer{
+            width: 100%;
+            background-color: #1E2833;
+            padding-top: 60px;
+            padding-left: 50px;
+            .footer__sections{
+                display: flex;
+               .rare{
+                width: 232px;
+                img{
+                    margin-bottom: 20px;
+                }
+                p{
+                    font-size: 15px;
+                    line-height: 19px;
+                    letter-spacing: -0.2px;
+                    color: #fff;
+                }
+               }
+               .rare2{
+                margin-left: 170px;
+                width: 133px;
+                p{
+                    font-weight: 700;
+                    font-size: 19px;
+                    letter-spacing: -0.23px;
+                    line-height: 24px;
+                    color: #fff;
+                }
+                ul{
+                    list-style-type: none;
+                    margin-top: 7px;
+                    li{
+                        font-size: 15px;
+                        line-height: 19px;
+                        letter-spacing: -0.2px;
+                        color: #fff;
+                        margin-top: 10px;
+                    }
+                }
+               }
+               .rare3{
+                width: 220px;
+               }
+            }
+        }
+    }
+}

@@ -2,8 +2,9 @@
     "liveSassCompile.settings.formats": [
         {
             "format": "compressed",
-            "extensionName": ".css",
-            "savePath": "/style"
+            "extensionName": ".min.css",
+            "savePath": "/singleitemstyle",
+           
         }
     ]
 }
